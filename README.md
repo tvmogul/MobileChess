@@ -6,7 +6,7 @@
 
 Create a new app with the following repository:
 
-    https://github.com/phonegap/phonegap-start.git
+    https://github.com/tvmogul/SwipeClouds.git
 
 ## Run Application
 
