@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MobileChess", ".", "{292D086A-D87E-471B-9720-8CA8DFEF002E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/MobileChess"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Mobile_Apps\MobileChess\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\MobileChess\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/MobileChess"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Mobile_Apps\MobileChess\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\MobileChess\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "12996"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{292D086A-D87E-471B-9720-8CA8DFEF002E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{292D086A-D87E-471B-9720-8CA8DFEF002E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

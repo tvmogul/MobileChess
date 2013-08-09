@@ -1,0 +1,73 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden !important;
+    height: 100%;
+}
+
+.ui-content
+{
+    position: fixed;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    outline: 0 !important;
+    height: 100%;
+    overflow: hidden;
+    right: 0 !important;
+    left: 0 !important;
+    top: 0 !important;
+    overflow: hidden !important;
+} 
+
+.ui-header, .ui-footer, .ui-page-fullscreen .ui-header, ui-page, .ui-page-fullscreen .ui-footer {
+position: absolute;
+overflow: hidden;
+width: 100%;
+border-left-width: 0;
+border-right-width: 0;
+border: 0 !important;
+}
+
+.ui-header, .ui-footer {
+display: block;
+width: 100%;
+}
+    
+/*
+You can remove the -down and -hover CSS styles from the style-sheet for jQuery Mobile.
+When you scroll a list you are "hovering" your finger over a list-item which triggers it 
+to change it's styling due to the -hover class that is applied. If you change the -hover 
+class to be the same as the -up class then no redraws will occur and scrolling will be much smoother.
+.ui-shadow, .ui-btn-up-a, .ui-btn-hover-a, .ui-btn-down-a, .ui-body-b, .ui-btn-up-b, .ui-btn-hover-b, .ui-btn-down-b, .ui-bar-c, .ui-body-c, .ui-btn-up-c, .ui-btn-hover-c, .ui-btn-down-c, .ui-bar-c, .ui-body-d, .ui-btn-up-d, .ui-btn-hover-d, .ui-btn-down-d, .ui-bar-d, .ui-body-e, .ui-btn-up-e, .ui-btn-hover-e, .ui-btn-down-e, .ui-bar-e, .ui-overlay-shadow, .ui-shadow, .ui-btn-active, .ui-body-a, .ui-bar-a {
+    text-shadow: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -webkit-transform: translate3d(0,0,0);
+}   
+*/
+
+.ui-btn-up
+{
+    border: 1px solid #222 /*{a-bup-border}*/;
+    background: #333333 /*{a-bup-background-color}*/;
+    font-weight: bold;
+    color: #fff /*{a-bup-color}*/;
+    background: #cae533; /* Old browsers */
+    background: -moz-linear-gradient(top,&nbsp; #cae533 0%, #cae446 50%, #b2d210 51%, #acc907 100%); /* FF3.6+ */
+    background: -webkit-linear-gradient(top,&nbsp; #cae533 0%,#cae446 50%,#b2d210 51%,#acc907 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,&nbsp; #cae533 0%,#cae446 50%,#b2d210 51%,#acc907 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,&nbsp; #cae533 0%,#cae446 50%,#b2d210 51%,#acc907 100%); /* IE10+ */
+    background: linear-gradient(to bottom,&nbsp; #cae533 0%,#cae446 50%,#b2d210 51%,#acc907 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cae533', endColorstr='#acc907',GradientType=0 ); /* IE6-9 */
+}
+.ui-btn-hover
+{
+}
+.ui-btn-down
+{
+}
+
+
+
