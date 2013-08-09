@@ -1,12 +1,12 @@
-# SwipeClouds PhoneGap Application
+# MobileChess PhoneGap Application
 
-> SwipeClouds Application built with PhoneGap
+> MobileChess Application built with PhoneGap
 
 ## PhoneGap Build
 
 Create a new app with the following repository:
 
-    https://github.com/tvmogul/SwipeClouds.git
+    https://github.com/tvmogul/MobileChess.git
 
 ## Run Application
 
